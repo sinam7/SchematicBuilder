@@ -1,0 +1,15 @@
+name: SchematicBuilder
+version: 0.1-SNAPSHOT
+main: com.sinam7.schematicbuilder.SchematicPlugin
+description: Shop with dynamic price
+author: sinam7
+website: https://github.com/sinam7
+api-version: 1.19
+depend: [WorldEdit, helper]
+
+commands:
+  sb:
+    description: SchematicBuilder
+    usage: /<command> [args]
+    aliases: [schematicbuilder]
+    permission: schematicbuilder.use
